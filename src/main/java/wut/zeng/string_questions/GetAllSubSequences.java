@@ -8,11 +8,11 @@ import java.util.List;
  * @CreateTime 2023-11-24 22:01
  * @Description 获取字符串所有的子序列
  * "abc" "a b c ab ac bc abc"
- * @RelateMsg string combine recursion
+ * @RelateMsg 字符串 + 递归
  */
 public class GetAllSubSequences {
 
-    public static List<String> getSubsequences(String str) {
+    public static List<String> getAllSubSequence(String str) {
         char[] chars = str.toCharArray();
         String path = "";
         List<String> result = new ArrayList<>();
@@ -22,7 +22,7 @@ public class GetAllSubSequences {
 
     /**
      * 递归处理
-     * 需要的参数: 原始字符串 chars, 当前的遍历的指针位置 index, 结果集 result，子序列 path
+     * 需要的参数: 原始字符串 chars, 当前的遍历的指针位置 index, 结果集 result, 子序列 path
      * 1. 递归的终止条件：字符串处理完毕
      * 2. 递归的返回值：无(实际的返回值存放在了path\result中)
      * 3. 单层递归需要进行的操作

@@ -1,11 +1,6 @@
 # Algorithms classification
 + array questions
-  + array cumulative sum
 + string questions
-  + string matching 
-  + string convert
-  + string combine recursion
-  + string combine dp
 + recursion questions
 + two pointer questions
 + move window questions

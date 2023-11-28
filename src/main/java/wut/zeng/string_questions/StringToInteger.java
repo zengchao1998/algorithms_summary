@@ -6,7 +6,7 @@ package wut.zeng.string_questions;
  * @CreateTime 2023-11-24 22:06
  * @Description 字符串转整型
  * "134" 134
- * @RelateMsg string convert
+ * @RelateMsg 字符串转换
  */
 public class StringToInteger {
 

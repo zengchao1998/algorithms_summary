@@ -7,8 +7,7 @@ import org.junit.platform.commons.util.StringUtils;
  * @CreateTime 2023-11-24 22:10
  * @Description 由整数构成的序列转换成字符串
  * 1-26 -> "ABC...Z"
- * @RelateMsg string convert
- * string combine recursion
+ * @RelateMsg 字符串转换 + 递归
  */
 public class IntArrayToString {
 

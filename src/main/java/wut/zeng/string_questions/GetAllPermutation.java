@@ -11,7 +11,7 @@ import java.util.List;
  * @CreateTime 2023-11-24 22:04
  * @Description 获取字符串的全排列
  * "abc" "abc acb bac bca cab cba"
- * @RelateMsg string combine recursion
+ * @RelateMsg 字符串 + 递归
  */
 public class GetAllPermutation {
 
