@@ -11,7 +11,7 @@ import java.util.Stack;
  * 定义: 获取数组中每个数 左边离它最近的比它小的数 右边比它小离它最近的数
  * @RelateMsg
  */
-public class MonotonousStackRealize {
+public class MonotonousStackRealized {
 
     /**
      * 题目: 单调栈的实现(无重复值实现)

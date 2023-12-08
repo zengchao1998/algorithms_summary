@@ -25,7 +25,7 @@ public class CumulativeSumPlusMinimum {
             preSum[i] = preSum[i - 1] + arr[i];
         }
         // 获取数组中所有元素右侧离它最近比其小的数值
-        int[][] edges = MonotonousStackRealize.getTwoSideNearestNum(arr);
+        int[][] edges = MonotonousStackRealized.getTwoSideNearestNum(arr);
         int res = Integer.MIN_VALUE;
         int help = 0;
         // 遍历处理所有位置,从i位置扩展到rightEdge
